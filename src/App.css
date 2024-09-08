@@ -1,0 +1,72 @@
+.App {
+    text-align: center;
+}
+  
+.tab-titles {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+  
+.tab-titles li {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+  
+.tab-titles li:hover {
+    color: rgb(66, 132, 207);
+}
+  
+.tab-titles .active {
+    border-bottom: 2px solid #6e6e6e;
+    font-weight: bold;
+}
+  
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    width: 300px;
+    margin: 0 auto;
+}
+  
+  /* Стиль для светлой темы */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+header button {
+  margin-left: auto;
+  padding: 10px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}

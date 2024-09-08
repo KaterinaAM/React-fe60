@@ -1,0 +1,38 @@
+/* Стиль для светлой темы */
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dark-theme {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  header button {
+    margin-left: auto;
+    padding: 10px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
